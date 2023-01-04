@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flutter_mdns_plugin_example">
+
+   <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+
    <application
         android:label="flutter_mdns_plugin_example"
         android:name="${applicationName}"
